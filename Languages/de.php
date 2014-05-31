@@ -1,7 +1,7 @@
 <?php
 /*
 * Language: Deutsch
-* Author: You
+* Author: Community
 * Author URI: http://krzl.net
 * Translator: Premium URL Shortener
 * Date: 2014-05-15 21:44:28
