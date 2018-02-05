@@ -21,12 +21,13 @@ $shortener->setKey("APIKEY");
 // Simple call
 echo $shortener->shorten("https://gempixel.com");
 ```
+## Get short URL directly
 To get the Short URL directly without having to deal with json you can chain the getShort() method as below
 
 ```php
 // Get short URL directly
 echo $shortener->getShort()->shorten("https://gempixel.com");
-``
+```
 
 ## Advanced Call
 To customize the URL, you can use the below to set a custom alias and the format - which in this case is in text
