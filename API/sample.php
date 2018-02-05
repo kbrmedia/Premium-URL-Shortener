@@ -19,6 +19,11 @@ $shortener->setKey("Fgvsld81Hvex");
 echo $shortener->shorten("https://gempixel.com");
 
 /**
+ * Get short URL directly
+ */
+echo $shortener->getShort()->shorten("https://gempixel.com");
+
+/**
  * Advanced call
  */
 // Custom Alias
