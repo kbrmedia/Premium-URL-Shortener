@@ -30,6 +30,11 @@ class Shortener{
 	 * @var [type]
 	 */
 	protected $format = "json";
+	/**
+	 * Get Short directly
+	 * @var boolean
+	 */
+	protected $getShort = FALSE;
 
 	/**
 	 * [__construct description]
@@ -77,6 +82,16 @@ class Shortener{
 		}
 	}	
 	/**
+	 * Get Short Directly
+	 * @author KBRmedia <http://gempixel.com>
+	 * @version 1.0
+	 * @return  [type] [description]
+	 */
+	public function getShort(){
+		$this->getShort = TRUE;
+		return $this;
+	}
+	/**
 	 * Shorten Request
 	 * @author KBRmedia <http://gempixel.com>
 	 * @version 1.0
@@ -100,8 +115,17 @@ class Shortener{
 		if($this->format != "json"){
 			$apicall .= "&format={$this->format}";
 		}
+		
+		$Response = $this->http($apicall);
 
-		return $this->http($apicall);
+		if($this->getShort && $this->format == "json"){
+			$reponse_decoded = json_decode($Response);
+			if(isset($reponse_decoded->short)){
+				return $reponse_decoded->short;
+			}
+		}
+
+		return $Response;
 	}
 	/**
 	 * Unshorten URL
