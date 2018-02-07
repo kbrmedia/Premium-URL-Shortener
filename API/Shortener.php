@@ -7,6 +7,7 @@
  * @link http://gempixel.com  
  * @since 1.0
  */
+
 namespace kbrmedia;
 
 class Shortener{
