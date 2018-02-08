@@ -15,7 +15,7 @@ The official API wrapper for [Premium URL Shortener](https://gempixel.com/demo/s
 The example below shows you how to shorten a URL without any other parameters. You need to get your API key from the settings page of the user control panel
 
 ```php
-include("Shortener.php");
+include("API/Shortener.php");
 
 $shortener = new kbrmedia\Shortener();
 
