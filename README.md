@@ -3,14 +3,13 @@ Premium-URL-Shortener
 
 This repository is used to share plugins, languages and other stuff for verified buyers. You can buy Premium URL Shortener at http://gempixel.com/buy/short
 
+## Help Contribute
+Send us pull requests and help improve the code.
 
-1.0 Premium URL Shortener PHP API Wrapper
+Premium URL Shortener PHP API Wrapper
 ==================
 
 The official API wrapper for [Premium URL Shortener](https://gempixel.com/demo/short/)
-
-## Help Contribute
-Send us pull requests and help improve the code.
 
 ## Your first integration
 The example below shows you how to shorten a URL without any other parameters. You need to get your API key from the settings page of the user control panel
