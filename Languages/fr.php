@@ -1,6 +1,6 @@
 <?php
 /*
- * Language: Francais
+ * Language: Français
  * Author: KBRmedia
  * Author URI: http://gempixel.com
  * Translator: Google
