@@ -36,14 +36,26 @@ To customize the URL, you can use the below to set a custom alias and the format
 // Custom Alias
 $shortener->setCustom("gempixel");
 
+// Set Type
+$shortener->setType("frame");
+
+// Set Password
+$shortener->setPassword("123456");
+
 // Format: text or json
 $shortener->setFormat("text");
 
 echo $shortener->shorten("https://gempixel.com");
 ```
-## Unshorten a URL or Get more data
+## Get detail or data for a short URL
 This sample allows you to unshorten a URL and some data 
 
 ```php
-echo $shortener->unshorten("http://myshort.site/gempixel");
+echo $shortener->details("gempixel");
+```
+## Get all of your URLs on your account
+This sample allows you to get all of your URLs in your account. It has two parameters: sort [date or click] and limit (number of urls)
+
+```php
+echo $shortener->urls();
 ```
