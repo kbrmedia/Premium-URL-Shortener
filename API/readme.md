@@ -1,7 +1,7 @@
 Premium URL Shortener PHP API Wrapper
 ==================
 
-The official API wrapper for [Premium URL Shortener](https://gempixel.com/demo/short/)
+The official API wrapper for [Premium URL Shortener](https://gempixel.com/products/url-shortener-script/)
 
 ## Help Contribute
 Send us pull requests and help improve the code.
