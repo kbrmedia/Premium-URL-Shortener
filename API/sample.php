@@ -45,11 +45,11 @@ echo $shortener->shorten("https://gempixel.com");
  * Get Details & Stats
  */
 
-echo $shortener->details("gempixel");
+var_dump($shortener->details("gempixel"));
 
 /**
  * Get all of your URLS
  * @param string $sort Sort your URLs between "date" or "click" (optional - default = date)
  * @param integer $limit Limit number of URLs
  */
-echo $shortener->urls();
+var_dump($shortener->urls());

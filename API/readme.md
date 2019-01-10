@@ -51,11 +51,11 @@ echo $shortener->shorten("https://gempixel.com");
 This sample allows you to unshorten a URL and some data 
 
 ```php
-echo $shortener->details("gempixel");
+var_dump($shortener->details("gempixel"));
 ```
 ## Get all of your URLs on your account
 This sample allows you to get all of your URLs in your account. It has two parameters: sort [date or click] and limit (number of urls)
 
 ```php
-echo $shortener->urls();
+var_dump($shortener->urls());
 ```
