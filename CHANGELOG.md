@@ -1,6 +1,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## Version 5.4 - 28-01-2019
+## [5.4] - 28-01-2019
 ### Added
 - Autoupdater
 - Theme API
@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 - Newsletter issue
 - Minor bugs
 
-## Version 5.3 - 01-01-2019
+## [5.3] - 01-01-2019
 ### Added
 - Custom Plans
 - Multiple Domain Names
@@ -28,18 +28,18 @@ All notable changes to this project will be documented in this file.
 - Bugs
 
 
-## Version 5.2 03-10-2018
+## [5.2] 03-10-2018
 ### Added
 - New API Endpoints
 ### Changed
 - Improved Speed
 - Bugs
 
-## Version 5.1.1 - 08-07-2018
+## [5.1.1] - 08-07-2018
 ### Changed
 - custom domain name bug
 
-## Version 5.1 - 22-06-2018
+## [5.1] - 22-06-2018
 ### Added
 - Branded Domain Name
 - Multiple Pixels
