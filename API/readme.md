@@ -26,7 +26,7 @@ To get the Short URL directly without having to deal with json you can chain the
 
 ```php
 // Get short URL directly
-echo $shortener->getShort()->shorten("https://gempixel.com");
+echo $shortener->toText()->shorten("https://gempixel.com");
 ```
 
 ## Advanced Call

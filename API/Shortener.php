@@ -116,7 +116,7 @@ class Shortener{
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
-	public function getShort(){
+	public function toText(){
 		$this->getShort = TRUE;
 		return $this;
 	}

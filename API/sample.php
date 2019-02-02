@@ -21,7 +21,7 @@ echo $shortener->shorten("https://gempixel.com");
 /**
  * Get short URL directly
  */
-echo $shortener->getShort()->shorten("https://gempixel.com");
+echo $shortener->toText()->shorten("https://gempixel.com");
 
 /**
  * Advanced call
