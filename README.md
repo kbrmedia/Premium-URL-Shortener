@@ -3,6 +3,9 @@ Premium-URL-Shortener
 
 This repository is used to share plugins, languages and other stuff for verified buyers. You can buy Premium URL Shortener at http://gempixel.com/buy/short
 
+## Found an issue?
+If you have found an issue with the main script, open an "Issue" and we will resolve it as soon as possible.
+
 ## Help Contribute
 Send us pull requests and help improve the code.
 
