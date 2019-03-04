@@ -7,6 +7,8 @@ assignees: kbrmedia
 
 ---
 
+**Please do not spam or you will be blocked from this page**
+
 **Describe the bug**
 A clear and concise description of what the bug is. If you need us to have a look at it, please open a ticket at https://support.gempixel.com
 
