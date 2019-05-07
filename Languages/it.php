@@ -1,8 +1,8 @@
 <?php
 /*
 * Language: Italiano
-* Author: You
-* Author URI: https://tie4.me
+* Author: Roberto
+* Author URI: NA
 * Translator: Premium URL Shortener
 * Date: 2019-04-30 11:54:02
 * ---------------------------------------------------------------
