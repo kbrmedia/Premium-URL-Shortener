@@ -1,10 +1,10 @@
 <?php
 /*
 * Language: Italiano
-* Author: Roberto
-* Author URI: NA
-* Translator: Premium URL Shortener
-* Date: 2019-04-30 11:54:02
+* Author: GemPixel
+* Author URI: https://gempixel.com
+* Translator: Google
+* Date: 2020-06-19 12:10 PM
 * ---------------------------------------------------------------
 * Important Notice: Make sure to only change the right-hand side
 * DO NOT CHANGE THE LEFT-HAND SIDE
@@ -561,4 +561,77 @@ $lang = array(
 "Perfect for your business activites"=>"Perfetto per le tue <strong>attività commerciali</strong>",
 "Everything. Unlimited. Use as needed."=>"Tutto, illimitato, come hai bisogno.",
 "Definitely! If you choose to pay yearly, not only will you make great use of premium features but also you will get a discount of up to 17%."=>"Decisamente! Se scegli di pagare annualmente, non solo farai un ottimo uso delle funzionalità premium, ma otterrai anche uno sconto fino al 17%.",
-"Upon request, we will issue a refund at the moment of the request for all upcoming periods. You will just need to contact us and we will take care of everything."=>"Su tu richiesta, emetteremo un rimborso per tutti i periodi rimanenti. Avrai solo bisogno di contattarci e ci occuperemo di tutto.",); ?>
+"Upon request, we will issue a refund at the moment of the request for all upcoming periods. You will just need to contact us and we will take care of everything."=>"Su tu richiesta, emetteremo un rimborso per tutti i periodi rimanenti. Avrai solo bisogno di contattarci e ci occuperemo di tutto.",
+  "Featured image must be either a PNG or a JPEG." => "L'immagine in primo piano deve essere un PNG o un JPEG.",
+  "Featured image must be either a PNG or a JPEG (Max 1MB)." => "L'immagine in primo piano deve essere un file PNG o JPEG (massimo 1 MB).",
+  "Post has been deleted." => "Il post è stato eliminato.",
+  "You have already used a trial." => "Hai già usato una versione di prova.",
+  "Unsafe Link Detected" => "Rilevato collegamento non sicuro",
+  "Yes" => "sì",
+  "Your domain name is working. Add it to your account now." => "Il tuo nome di dominio funziona. Aggiungilo ora al tuo account.",
+  "Not Found" => "Non trovato",
+  "Hello" => "Ciao",
+  "This service is meant to be private." => "Questo servizio è pensato per essere privato.",
+  "We are currently under maintenance." => "Al momento siamo in manutenzione.",
+  "Blog" => "blog",
+  "Tools &amp; Integrations" => "Strumenti e integrazioni",
+  "Free Trial" => "Prova gratuita",
+  "No bundles found.." => "Nessun pacchetto trovato ..",
+  "Top Blog Posts" => "I migliori post sul blog",
+  "No posts found" => "Nessun post trovato",
+  "s" => "S",
+  "Captcha is required. Please try again." => "È richiesto il captcha. Per favore riprova.",
+  "The captcha did not validate. Please try again." => "Il captcha non è stato convalidato. Per favore riprova.",
+  "You have reached your maximum links limit. Please upgrade to another plan." => "Hai raggiunto il limite massimo di link. Passa a un altro piano.",
+  "Please enter the 2FA access code to login." => "Inserisci il codice di accesso 2FA per accedere.",
+  "Enter your 2FA access code" => "Inserisci il tuo codice di accesso 2FA",
+  "The access code can be found on the Authenticator app. Please enter the code shown for this website. If you lost your phone or can't use the app, please contact us." => "Il codice di accesso è disponibile nell'app Authenticator. Inserisci il codice visualizzato per questo sito Web. Se hai perso il telefono o non riesci a utilizzare l'app, ti preghiamo di contattarci.",
+  "2FA Access Code" => "Codice di accesso 2FA",
+  "Validate" => "Convalidare",
+  "Parameter Name" => "Nome parametro",
+  "My Brand" => "Il mio marchio",
+  "Get a $10 discount" => "Ottieni uno sconto di $ 10",
+  "Get a $10 discount with any purchase more than $50" => "Ottieni uno sconto di $ 10 con qualsiasi acquisto superiore a $ 50",
+  "Create a small popup with a message and a link to a page or a product." => "Crea un piccolo popup con un messaggio e un link a una pagina o un prodotto.",
+  "Contact Form" => "Modulo di Contatto",
+  "Create a contact form where users will be able to contact you via email." => "Crea un modulo di contatto in cui gli utenti saranno in grado di contattarti via e-mail.",
+  "Poll" => "Sondaggio",
+  "Create a quick poll where users will be able to answer it upon visit." => "Crea un rapido sondaggio in cui gli utenti saranno in grado di rispondere alla visita.",
+  "Your text here" => "Il tuo testo qui",
+  "Promo" => "Promo",
+  "Avatar must be either a maximum size of 100x100 PNG or a JPEG (Max 300KB)." => "Avatar deve avere una dimensione massima di 100x100 PNG o un JPEG (Max 300 KB).",
+  "Customize Message Overlay" => "Personalizza overlay messaggi",
+  "leave empty to disable" => "lasciare vuoto per disabilitare",
+  "Avatar" => "Avatar",
+  "Avatar should be square with a maximum size of 100x100. To remove the image, click on the upload field and then cancel it." => "L'avatar deve essere quadrato con una dimensione massima di 100x100. Per rimuovere l'immagine, fare clic sul campo di caricamento e quindi annullarlo.",
+  "If you remove the button text below but add a link here, the whole overlay will be linked to this when clicked." => "Se rimuovi il testo del pulsante in basso ma aggiungi un link qui, l'intero overlay verrà collegato a questo quando si fa clic.",
+  "Top Left" => "In alto a sinistra",
+  "Top Right" => "In alto a destra",
+  "Bottom Left" => "In basso a sinistra",
+  "Bottom Right" => "In basso a destra",
+  "Need Help?" => "Ho bisogno di aiuto?",
+  "The name field cannot be empty." => "Il campo del nome non può essere vuoto.",
+  "Customize Contact Overlay" => "Personalizza overlay contatto",
+  "Send Email Address" => "Invia indirizzo email",
+  "Emails from the form will be sent to this address" => "Le e-mail dal modulo verranno inviate a questo indirizzo",
+  "Email Subject" => "Oggetto dell'email",
+  "Something you would know where it comes from." => "Qualcosa che sapresti da dove viene.",
+  "Form Label" => "Etichetta del modulo",
+  "(leave empty to disable)" => "(lasciare vuoto per disabilitare)",
+  "e.g. Need help?" => "per esempio. Ho bisogno di aiuto?",
+  "Form Description" => "Descrizione del modulo",
+  "(optional) Provide a description or anything you want to add to the form." => "(facoltativo) Fornisci una descrizione o tutto ciò che desideri aggiungere al modulo.",
+  "Name Placeholder" => "Nome segnaposto",
+  "If you want to use a different language, change these." => "Se si desidera utilizzare una lingua diversa, modificarle.",
+  "Email Placeholder" => "Segnaposto e-mail",
+  "Message Placeholder" => "Segnaposto del messaggio",
+  "Send Button Placeholder" => "Segnaposto pulsante Invia",
+  "Form Background Color" => "Colore di sfondo del modulo",
+  "Form Text Color" => "Colore testo modulo",
+  "Input Background Color" => "Colore di sfondo di input",
+  "Input Text Color" => "Colore testo di input",
+  "Webhook Notification" => "Notifica Webhook",
+  "If you want to receive a notification directly to your app, add the url to your app's handler and as soon as there is a submission, we will send a notification to this url as well as an email to the address provided above. For more information, please check on the right." => "Se desideri ricevere una notifica direttamente sulla tua app, aggiungi l'URL al gestore della tua app e non appena viene inviato un invio, invieremo una notifica a questo url e una e-mail all'indirizzo fornito sopra. Per ulteriori informazioni, si prega di controllare a destra.",
+  "An overlay page allows you to display a small non-intrusive overlay on the destination website to advertise your product or your services. You can use this type of overlay to insert a popup-style contact form to shortened page. Please note that some secured and sensitive websites such as google.com or facebook.com do not work with this feature." => "Una pagina di overlay consente di visualizzare un piccolo overlay non intrusivo sul sito Web di destinazione per pubblicizzare il prodotto o i servizi. È possibile utilizzare questo tipo di overlay per inserire un modulo di contatto in stile popup nella pagina abbreviata. Alcuni siti Web sicuri e sensibili come google.com o facebook.com non funzionano con questa funzione.",
+  "If you add a webhook url, we will send a notification to that url with the contact form data. You will be able to integrate it with your own app or a third-party app. Below is a sample data that will be sent in <code>JSON</code> format via a <code>POST</code> request." => "Se aggiungi un URL webhook, invieremo una notifica a tale URL con i dati del modulo di contatto. Sarai in grado di integrarlo con la tua app o un'app di terze parti. Di seguito è riportato un esempio di dati che verranno inviati in formato JSON tramite una richiesta POST .",
+);
