@@ -7,7 +7,7 @@ The official API wrapper for [Premium URL Shortener](https://gempixel.com/produc
 Send us pull requests and help improve the code.
 
 ## Your first integration
-The example below shows you how to shorten a URL without any other parameters. You need to get your API key from the settings page of the user control panel. For more info [View Docs](https://gempixel.com/docs/premium-url-shortener)
+The example below shows you how to shorten a URL without any other parameters. You need to get your API key from the settings page of the user control panel. For more info [View Docs](https://gempixel.com/docs/premium-url-shortener-api-guide)
 
 ```php
 include("Shortener.php");
@@ -87,12 +87,12 @@ This sample allows you to create a new user.
  */
 
 $userData = [
-						  'username' => 'user',
-						  'password' => '1234567891011',
-						  'email' => 'demo@yourwebsite.com',
-						  'planid' => 1,
-						  'expiration' => '2020-11-20 11:00:00',
-						];
+  'username' => 'user',
+  'password' => '1234567891011',
+  'email' => 'demo@yourwebsite.com',
+  'planid' => 1,
+  'expiration' => '2020-11-20 11:00:00',
+];
 
 $shortener->createUser($userData);
 ```
