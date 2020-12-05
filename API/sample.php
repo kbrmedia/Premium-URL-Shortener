@@ -4,52 +4,83 @@
  */
 include("Shortener.php");
 /**
- * Instantiate it
+ * Instantiate it + Set the URL & API key
  * @var kbrmedia
  */
-$shortener = new kbrmedia\Shortener();
-/**
- * Set the URL & API key
- */
-$shortener->setURL("http://url.kbr/api");
-$shortener->setKey("Fgvsld81Hvex");
-/**
- * Simple call
- */
-echo $shortener->shorten("https://gempixel.com");
+$shortener = new GemPixel\Shortener('URL', 'KEY');
 
 /**
- * Get short URL directly
+ * Create a new short url
+ * @param array $urlData Array of url data
  */
-echo $shortener->toText()->shorten("https://gempixel.com");
 
-/**
- * Advanced call
- */
-// Custom Alias
-$shortener->setCustom("gempixel");
+$urlData = [
+  'url' => 'https://google.com',
+  'custom' => 'google365',
+  'password' => 'mypass',
+  'domain' => 'http://goo.gl',
+  'expiry' => '2020-11-11 12:00:00',
+  'type' => 'splash',
+  'geotarget' => [
+    [
+      'location' => 'Canada',
+      'link' => 'https://google.ca',
+    ],
+    [
+      'location' => 'United States',
+      'link' => 'https://google.us',
+    ]
+  ],
+  'devicetarget' => [
+    [
+      'device' => 'iPhone',
+      'link' => 'https://google.com',
+    ],
+    [
+      'device' => 'Android',
+      'link' => 'https://google.com',
+    ]
+  ]
+];
 
-// Set Type
-$shortener->setType("frame");
-
-// Set Password
-$shortener->setPassword("123456");
-
-// Format: text or json
-$shortener->setFormat("text");
-
-echo $shortener->shorten("https://gempixel.com");
+$shortener->shorten($urlData);
 
 
 /**
  * Get Details & Stats
+ * @param integer $urlid The ID of the url
  */
 
-var_dump($shortener->details("gempixel"));
+$shortener->stats($urlid);
 
 /**
  * Get all of your URLS
+ * @param integer $page Current page number
  * @param string $sort Sort your URLs between "date" or "click" (optional - default = date)
  * @param integer $limit Limit number of URLs
  */
-var_dump($shortener->urls());
+
+$shortener->account(int $page, array $order, int $limit);
+
+
+/**
+ * Create a new User (Admin Only)
+ * @param array $userData Array of user data
+ */
+
+$userData = [
+						  'username' => 'user',
+						  'password' => '1234567891011',
+						  'email' => 'demo@yourwebsite.com',
+						  'planid' => 1,
+						  'expiration' => '2020-11-20 11:00:00',
+						];
+
+$shortener->createUser($userData);
+
+
+/**
+ * Get user information (Admin Only)
+ * @param integer $userID User ID
+ */
+$shortener->getUser($userID);
