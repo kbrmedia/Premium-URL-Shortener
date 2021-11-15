@@ -25,7 +25,7 @@ Create a directory in the folder storage/languages with the code of the language
 ### 3. Edit the file app.php
 
 Open app.php and you will see something like this
-``php
+```php
 <?php
 /*
  * Language: Français
@@ -42,11 +42,11 @@ Open app.php and you will see something like this
  */ 
 
 $lang = [
-``
+```
 
 Replace that by 
 
-``php
+```php
 <?php
 return [
     /**
@@ -61,6 +61,6 @@ return [
      * Language Data
      */
     "data" => [
-``
+```
 
 then at the very end of the file replace ]; by ] ];
