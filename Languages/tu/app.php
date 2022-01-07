@@ -3,7 +3,7 @@
   'code' => 'tu',
   'region' => 'tu',
   'name' => 'Turkce',
-  'author' => 'Premium URL Shortener',
+  'author' => 'Apromodo',
   'link' => 'https://linkisalt.com',
   'date' => '07/01/2022',
   'rtl' => false,

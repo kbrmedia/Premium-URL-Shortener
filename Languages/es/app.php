@@ -3,7 +3,7 @@
   'code' => 'es',
   'region' => 'es',
   'name' => 'Español',
-  'author' => 'Premium URL Shortener',
+  'author' => 'Jordi',
   'link' => 'http://digitalmarketing.es',
   'date' => '07/01/2022',
   'rtl' => false,
