@@ -12,17 +12,17 @@ Send us pull requests and help improve the language files.
 
 Download the file from here then upload in the following directory **storage/languages/**. That is it. It is that simple. Some of these files might not be translated 100%.
 
-## How to language files from v5.X on v6.X?
+## How to migrate language files from v5.X on v6.X?
 
 It is still possible to install language files from the previous version to the new version. 
 
-### 1. Create a directory in the folder storage/languages with the code of the language
+#### 1. Create a directory in the folder storage/languages with the code of the language
 
 Create a directory in the folder storage/languages with the code of the language. Let's take French as example. The first two letters of French is fr so we will create a folder named 'fr' in storage/languages/
 
-### 2. Add the file fr.php and rename it to app.php
+#### 2. Add the file fr.php and rename it to app.php
 
-### 3. Edit the file app.php
+#### 3. Edit the file app.php
 
 Open app.php and you will see something like this
 ```php
