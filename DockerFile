@@ -1,0 +1,55 @@
+FROM php:8.2-fpm
+
+ARG user
+ARG uid
+RUN apt update && apt install -y git curl unzip software-properties-common
+
+RUN  apt-get update && apt-get install -y -qq \
+build-essential chrpath debhelper dh-exec dpkg-dev g++ ghostscript gsfonts libbz2-dev \
+libdjvulibre-dev libexif-dev libfftw3-dev libfontconfig1-dev libfreetype6-dev \
+libjpeg-dev liblcms2-dev liblqr-1-0-dev libltdl-dev liblzma-dev libopenexr-dev \
+libpango1.0-dev libperl-dev libpng-dev librsvg2-bin librsvg2-dev libtiff-dev libwebp-dev \
+libwmf-dev libx11-dev libxext-dev libxml2-dev libxt-dev pkg-config pkg-kde-tools zlib1g-dev
+
+RUN apt clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    unzip \
+    libzip-dev \
+    libpng-dev \
+    libonig-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) \
+        pdo \
+        pdo_mysql \
+        mbstring \
+        exif \
+        pcntl \
+        bcmath \
+        gd \
+        zip
+
+RUN git clone https://github.com/ImageMagick/ImageMagick.git ImageMagick-7.1.1 && \
+        cd ImageMagick-7.1.1 && \
+        ./configure --with-rsvg --with-modules && \
+        make && \
+        make install && \
+        ldconfig /usr/local/lib
+
+RUN git clone https://github.com/Imagick/imagick && \
+        cd imagick && \
+        phpize && \
+        ./configure && \
+        make && \
+        make install
+
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+RUN useradd -G www-data,root -u $uid -d /home/$user $user
+RUN mkdir -p /home/$user/.composer && \
+    chown -R $user:$user /home/$user
+
+WORKDIR /var/www
+
+USER $user
