@@ -3,9 +3,9 @@
   'code' => 'fi',
   'region' => 'fi',
   'name' => 'Finnish',
-  'author' => '1u.fi - Lyhytosoite',
+  'author' => '1u.fi: Lyhytosoite',
   'link' => 'https://1u.fi',
-  'date' => '04/08/2023',
+  'date' => '21/05/2024',
   'data' => 
   array (
     'registration' => '<p><strong>Moikka!</strong></p><p>Olet rekisteröitynyt onnistuneesti osoitteessa {site.title}. Kirjaudu sisään osoitteessa <a href="{site.link}">{site.link}</a>.</p>',
